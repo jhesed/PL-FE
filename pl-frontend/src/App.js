@@ -17,7 +17,7 @@ const Dashboard = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost/api/v1/op', {
+      const response = await axios.get('http://localhost:8000/api/v1/op', {
         params: {
           plant_id: plantId,
           start_datetime: startDatetime,
